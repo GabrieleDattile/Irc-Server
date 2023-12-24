@@ -1,7 +1,16 @@
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install('fpdf')
+install('PyPDF2')
+
 import string
 import random
 from fpdf import FPDF
-from PyPDF2 import PdfFileWriter
+from PyPDF2 import PdfFileWriter, PdfFileReader
 
 def genera_password(sicurezza):
     if sicurezza == 'alta':
