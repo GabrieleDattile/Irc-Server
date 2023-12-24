@@ -1,4 +1,5 @@
-#irssi_install
+# irssi_install
+
 # Script bash per installare e configurare irssi
 
 Questo script bash ti permette di scegliere la tua distribuzione Linux tra Ubuntu, Debian, Fedora e Arch Linux, e di installare e configurare il client IRC irssi.
